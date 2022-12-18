@@ -1,3 +1,5 @@
+
+
 // Select all the elements in the HTML page
 // and assign them to a variable
 let now_playing = document.querySelector(".now-playing");
@@ -23,6 +25,7 @@ let updateTimer;
 let curr_track = document.createElement('audio');
 
 // Define the list of tracks that have to be played
+    
 let track_list = [
   {
     name: "רוממה",
