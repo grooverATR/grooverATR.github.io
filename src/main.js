@@ -30,19 +30,19 @@ let track_list = [
   {
     name: "רוממה",
     artist: "91071",
-    image: "https://od.lk/s/OThfMzYzODMzNzhf/E4eyZtNWEAU4SKZ.jpg",
+    image: "src/icon.png",
     path: "https://od.lk/s/922a96f94ef166ededc07f99aad18ee9a8db225d341741246d4dffede0146409/02%20Romema.mp3"
   },
   {
     name: "הקוסם",
     artist: "מארץ עוץ",
-    image: "https://od.lk/s/OThfMzYzODMzNzlf/3cf6ae1c-1389-498b-b12d-c34ab4336c34.jpg",
+    image: "src/icon.png",
     path: "https://od.lk/s/OThfMzYzODMzNzVf/03%20Oz.mp3"
   },
   {
     name: "דוב לבנה",
     artist: "והבית הככול",
-    image: "https://od.lk/s/OThfMzYzODMzODBf/70ac07f3-c336-55b0-e5c1-a6b18c50433d.jpg",
+    image: "src/icon.png",
     path: "https://od.lk/s/OThfMzYzODMzNzdf/24%20Dov%20Levana.mp3",
   },
 ];
@@ -62,7 +62,7 @@ function loadTrack(track_index) {
   track_name.textContent = track_list[track_index].name;
   track_artist.textContent = track_list[track_index].artist;
   now_playing.textContent =
-     "PLAYING " + (track_index + 1) + " OF " + track_list.length;
+     `מנגן ${track_index + 1} מתוך ${track_list.length}`;
  
   // Set an interval of 1000 milliseconds
   // for updating the seek slider
