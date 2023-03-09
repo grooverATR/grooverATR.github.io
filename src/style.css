@@ -4,16 +4,7 @@ body {
   /* Smoothly transition the background color */
   transition: background-color .5s;
 }
-/* player container */
-.player-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center ;
-  width: 100%;
-  height: 30%;
-  border: 3px solid black;
-  
-  }
+
 /* Using flex with the column direction to
    align items in a vertical direction */
 
@@ -146,7 +137,3 @@ i.fa-step-backward {
   cursor: pointer;
 }
 
-.lower-bar {
-  background-color: gray;
-  text-align: center;
-}
