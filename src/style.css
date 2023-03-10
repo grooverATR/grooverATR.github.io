@@ -4,11 +4,10 @@ body {
   /* Smoothly transition the background color */
   transition: background-color .5s;
 }
-
 /* Using flex with the column direction to
    align items in a vertical direction */
-
 .player {
+  height: 95vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -136,4 +135,3 @@ i.fa-step-forward,
 i.fa-step-backward {
   cursor: pointer;
 }
-
