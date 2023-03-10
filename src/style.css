@@ -4,6 +4,21 @@ body {
   /* Smoothly transition the background color */
   transition: background-color .5s;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+}
+
+
+
+
 /* Using flex with the column direction to
    align items in a vertical direction */
 .player {
@@ -135,3 +150,4 @@ i.fa-step-forward,
 i.fa-step-backward {
   cursor: pointer;
 }
+
