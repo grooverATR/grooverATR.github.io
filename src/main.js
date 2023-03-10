@@ -27,18 +27,18 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
     
 let track_list = [
-  {name:"סנופקין",artist:"הנודד",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2MTJf/01%20%D7%A1%D7%A0%D7%95%D7%A4%D7%A7%D7%99%D7%9F%20%D7%94%D7%A0%D7%95%D7%93%D7%93.mp3"},
+ {name:"סנופקין",artist:"הנודד",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2MTJf/01%20%D7%A1%D7%A0%D7%95%D7%A4%D7%A7%D7%99%D7%9F%20%D7%94%D7%A0%D7%95%D7%93%D7%93.mp3"},
 {name:"מערכת תוכניות",artist:"הילדים והנוער",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2MTZf/02%20%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA%20%D7%AA%D7%9B%D7%A0%D7%99%D7%95%D7%AA%20%D7%94%D7%99%D7%9C%D7%93%D7%99%D7%9D%20%D7%95%D7%94%D7%A0%D7%95%D7%A2%D7%A8.mp3"},
 {name:"הקוסם",artist:"מארץ עוץ",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2NDdf/03%20%D7%94%D7%A7%D7%95%D7%A1%D7%9D%20%D7%9E%D7%90%D7%A8%D7%A5%20%D7%A2%D7%95%D7%A5.mp3"},
-{name:"בבית של",artist:"פיסטוק",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2NDdf/03%20%D7%94%D7%A7%D7%95%D7%A1%D7%9D%20%D7%9E%D7%90%D7%A8%D7%A5%20%D7%A2%D7%95%D7%A5.mp3"},
+{name:"בבית של",artist:"פיסטוק",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY1Nzlf/04%20%D7%91%D7%91%D7%99%D7%AA%20%D7%A9%D7%9C%20%D7%A4%D7%99%D7%A1%D7%98%D7%95%D7%A7.mp3"},
 {name:"שאלתיאל",artist:"קוואק",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2NjBf/05%20%D7%A9%D7%90%D7%9C%D7%AA%D7%99%D7%90%D7%9C%20%D7%A7%D7%95%D7%95%D7%90%D7%A7.mp3"},
 {name:"בלי סודות",artist:"בלי סודות",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2NjJf/06%20%D7%91%D7%9C%D7%99%20%D7%A1%D7%95%D7%93%D7%95%D7%AA.mp3"},
 {name:"פרפר נחמד",artist:"מאוד",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2Njlf/07%20%D7%A4%D7%A8%D7%A4%D7%A8%20%D7%A0%D7%97%D7%9E%D7%93.mp3"},
-{name:"גברת פלפלת",artist:"עם חני נחמיאס",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2Njlf/07%20%D7%A4%D7%A8%D7%A4%D7%A8%20%D7%A0%D7%97%D7%9E%D7%93.mp3"},
+{name:"גברת פלפלת",artist:"עם חני נחמיאס",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2ODVf/08%20%D7%92%D7%91%D7%A8%D7%AA%20%D7%A4%D7%9C%D7%A4%D7%9C%D7%AA.mp3"},
 {name:"רחוב סומסום",artist:"רחוב קסומסום",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2ODZf/09%20%D7%A8%D7%97%D7%95%D7%91%20%D7%A1%D7%95%D7%9E%D7%A1%D7%95%D7%9D.mp3"},
 {name:"היי!",artist:"בינבה!",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2ODdf/10%20%D7%94%D7%99%D7%99%2C%20%D7%91%D7%99%D7%A0%D7%91%D7%94%21.mp3"},
 {name:"מסיפורי אבא בונה",artist:"עם חני נחמיאס",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2ODlf/11%20%D7%9E%D7%A1%D7%99%D7%A4%D7%95%D7%A8%D7%99%20%D7%90%D7%91%D7%90%20%D7%91%D7%95%D7%A0%D7%94.mp3"},
-{name:"נילס",artist:"הולגרסון",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2OTJf/13%20%D7%A4%D7%99%D7%A0%D7%95%D7%A7%D7%99%D7%95.mp3"},
+{name:"נילס",artist:"הולגרסון",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2OTFf/12%20%D7%A0%D7%99%D7%9C%D7%A1%20%D7%94%D7%95%D7%9C%D7%92%D7%A8%D7%A1%D7%95%D7%9F.mp3"},
 {name:"פינוקיו",artist:"שמי",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2OTJf/13%20%D7%A4%D7%99%D7%A0%D7%95%D7%A7%D7%99%D7%95.mp3"},
 {name:"אוטובוס הקסמים",artist:"של גברת פריסל",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2OTNf/14%20%D7%90%D7%95%D7%98%D7%95%D7%91%D7%95%D7%A1%20%D7%94%D7%A7%D7%A1%D7%9E%D7%99%D7%9D.mp3"},
 {name:"ארתור",artist:"איזה יום נפלא!",image:"src/icon.png",path:"https://od.lk/s/NzZfOTIwNzY2OTVf/15%20%D7%90%D7%A8%D7%AA%D7%95%D7%A8.mp3"},
