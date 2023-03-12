@@ -37,7 +37,7 @@ let track_list = [
 {name:"גברת פלפלת",artist:"עם חני נחמיאס",image:"src/graphics/8.png",path:"https://od.lk/s/NzZfOTIwNzY2ODVf/08%20%D7%92%D7%91%D7%A8%D7%AA%20%D7%A4%D7%9C%D7%A4%D7%9C%D7%AA.mp3"},
 {name:"רחוב סומסום",artist:"רחוב קסומסום",image:"src/graphics/9.png",path:"https://od.lk/s/NzZfOTIwNzY2ODZf/09%20%D7%A8%D7%97%D7%95%D7%91%20%D7%A1%D7%95%D7%9E%D7%A1%D7%95%D7%9D.mp3"},
 {name:"!היי",artist:"!בינבה",image:"src/graphics/10.png",path:"https://od.lk/s/NzZfOTIwNzY2ODdf/10%20%D7%94%D7%99%D7%99%2C%20%D7%91%D7%99%D7%A0%D7%91%D7%94%21.mp3"},
-{name:"מסיפורי אבא בונה",artist:"עם חני נחמיאס",image:"src/graphics/11.png",path:"https://od.lk/s/NzZfOTIwNzY2ODlf/11%20%D7%9E%D7%A1%D7%99%D7%A4%D7%95%D7%A8%D7%99%20%D7%90%D7%91%D7%90%20%D7%91%D7%95%D7%A0%D7%94.mp3"},
+{name:"מסיפורי אבא בונה",artist:"עם גני תמיר",image:"src/graphics/11.png",path:"https://od.lk/s/NzZfOTIwNzY2ODlf/11%20%D7%9E%D7%A1%D7%99%D7%A4%D7%95%D7%A8%D7%99%20%D7%90%D7%91%D7%90%20%D7%91%D7%95%D7%A0%D7%94.mp3"},
 {name:"נילס",artist:"הולגרסון",image:"src/graphics/12.png",path:"https://od.lk/s/NzZfOTIwNzY2OTFf/12%20%D7%A0%D7%99%D7%9C%D7%A1%20%D7%94%D7%95%D7%9C%D7%92%D7%A8%D7%A1%D7%95%D7%9F.mp3"},
 {name:"פינוקיו",artist:"שמי",image:"src/graphics/13.png",path:"https://od.lk/s/NzZfOTIwNzY2OTJf/13%20%D7%A4%D7%99%D7%A0%D7%95%D7%A7%D7%99%D7%95.mp3"},
 {name:"אוטובוס הקסמים",artist:"של גברת פריסל",image:"src/graphics/14.png",path:"https://od.lk/s/NzZfOTIwNzY2OTNf/14%20%D7%90%D7%95%D7%98%D7%95%D7%91%D7%95%D7%A1%20%D7%94%D7%A7%D7%A1%D7%9E%D7%99%D7%9D.mp3"},
